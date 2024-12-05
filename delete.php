@@ -27,18 +27,7 @@
 			    	    <input type="submit" value="ارسال"  name="sub">
 		    </form>
             <?php
-            // function selectdata($code){
-            //     $conn=mysqli_connect("localhost","root","","school2");
-            //     $sql="SELECT * FROM student WHERE code=$code";
-            //     $res=mysqli_query($conn,$sql);
-            //     $row=mysqli_fetch_all($res);
-            //     if($row!=null){
-            //         echo "y";
-            //     }else
-            //         echo "n";
-                
-                
-            // }
+            
      function deletedata($code){
         $conn=mysqli_connect("localhost","root","","daneshgha");
         $sql="SELECT * FROM student WHERE code=$code";
