@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <link rel="stylesheet" href="all4.css">
+<script>
+    var $=document;
+    const menubergur=$.querySelector('.check');
+    const list=$.querySelector('.list');
+    var bool=true;
+    menubergur.addEventListener("click" , () => {
+        if(bool==true){
+           
+            list.style.top='0%';
+            bool=false;
+        }else{
+            
+            list.style.top='-14%';
+            bool=true;
+        }
+    });
+</script>
 </head>
 <body>
     <div class="a1">
@@ -49,20 +66,4 @@
     
 </body>
 </html>
-<script>
-    var $=document;
-    const menubergur=$.querySelector('.check');
-    const list=$.querySelector('.list');
-    var bool=true;
-    menubergur.addEventListener("click" , () => {
-        if(bool==true){
-           
-            list.style.top='0%';
-            bool=false;
-        }else{
-            
-            list.style.top='-14%';
-            bool=true;
-        }
-    });
-</script>   
+   
