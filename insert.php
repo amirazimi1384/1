@@ -5,12 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Insert Page</title>
-        <link rel="stylesheet" href="all5.css">
+        <link rel="stylesheet" href="all4.css">
     </head>
         <body>
         <div>
         <label class="home">
-            <a href="http://localhost/projects/soheil/home.php">
+            <a href="http://amirazimi.liara.run/home.php">
         <input type="button" value="" class="button" name="button" id="button1">
             </a>
         <span class="style"></span>
