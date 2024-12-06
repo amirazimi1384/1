@@ -10,7 +10,7 @@
         <body>
         <div>
         <label class="home">
-            <a href="http://amirazimi.liara.run/home.php">
+            <a href="http://amirazimi.liara.run/index.html">
         <input type="button" value="" class="button" name="button" id="button1">
             </a>
         <span class="style"></span>
